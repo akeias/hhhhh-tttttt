@@ -144,6 +144,24 @@ body{
     line-height: 60px;
     border-radius: 0px 0px 15px 15px ;
 }
+
+@media screen and (max-width:1200px) {
+    #title{
+        width: 100%;
+    }
+    #category{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 0px;
+        margin-top: 10px;
+    }
+    #search{
+        width: 100%;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width:500px) {
     #title{
         width: 100%;
@@ -152,12 +170,8 @@ body{
         width: 100%;
         margin: 0 auto;
         text-align: center;
+        margin-top: 10px;
     }
-    .photo{
-        width: 25%;
-        display: inline-block;
-    }
-
     #search{
         width: 100%;
         text-align: center;
@@ -165,29 +179,21 @@ body{
     #search input{
         width:80%;
     }
+    #profile{
+        margin-right: 10px;
+    }
+    #screen-mode{
+        margin-right: 10px;
+    }
 }
-
 
 @media screen and (max-width:400px) {
-    #title{
-        width: 100%;
-    }
-    #category{
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
-    }
     .photo{
-        width:90%;
+        width: 90%;
         display: inline-block;
     }
 
-    #search{
-        width: 100%;
-        text-align: center;
-    }
-    #search input{
-        width:80%;
-    }
+    
 }
+
 
