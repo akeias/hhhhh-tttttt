@@ -101,20 +101,24 @@ body{
 #search input::placeholder{
     color: yellowgreen;
     font-size: 15px;
-}
+} 
 #category{
-    width: 70%;
+    width: 1200px;
+    background: orange;
     border-radius: 15px;
-    margin: 20px auto;
     background: rgba(255,255,255,0.5);
     text-align: center;
+    margin: 20px auto;
+    font-size: 0;
 }
 
 .photo{
-    width: 26%;
+    width: 360px;
     height: 240px; 
-    margin: 2%;
+    margin: 20px;
     display: inline-block;
+    background: skyblue;
+    box-sizing: border-box;
     border-radius: 15px;
     background: white;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 5px 5px rgba(0,0,0,0.23);
