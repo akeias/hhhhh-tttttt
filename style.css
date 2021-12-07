@@ -104,10 +104,8 @@ body{
 } 
 #category{
     width: 1200px;
-    background: orange;
     border-radius: 15px;
     background: rgba(255,255,255,0.5);
-    text-align: center;
     margin: 20px auto;
     font-size: 0;
 }
@@ -142,6 +140,7 @@ body{
     text-align: center;
     line-height: 60px;
     border-radius: 0px 0px 15px 15px ;
+    font-size: 15px;
 }
 
 @media screen and (max-width:1200px) {
@@ -160,7 +159,6 @@ body{
         margin-bottom: 20px;
         margin-right: 2%;
         margin-left: 2%;
-        border: 1px solid red;
     }
     .photo_card{
         width: 100%;
@@ -172,6 +170,12 @@ body{
         width: 100%;
         text-align: center;
     }
+    #profile{
+        margin-right: 4%;
+    }
+    #screen-mode{
+        margin-right: 4%;
+    }
 }
 @media screen and (max-width:1110px) {
     .photo{
@@ -182,16 +186,39 @@ body{
         margin-left: 2%;
     }
 }
-
-@media screen and (max-width:600px) {
-    #title{
-        width: 100%;
-    }
+@media screen and (max-width:800px) {
     #category{
-        width: 96%;
+        width: 90%;
     }
     .photo{
         width: 42%;
+    }
+    .photo_card{
+        width: 100%;
+    }
+    .photo_name{
+        width: 100%;
+    }
+
+    #search{
+        width: 100%;
+        text-align: center;
+    }
+    .photo_card:nth-child(3n+2) {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      .photo_card:nth-child(2n+1) {
+        margin-right: 3%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #category{
+        width: 90%;
+    }
+    .photo{
+        width: 360px;
     }
     .photo_card{
         width: 100%;
@@ -218,7 +245,7 @@ body{
         width: 100%;
     }
     #category{
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
         text-align: center;
         margin-top: 10px;
@@ -229,12 +256,6 @@ body{
     }
     #search input{
         width:80%;
-    }
-    #profile{
-        margin-right: 10px;
-    }
-    #screen-mode{
-        margin-right: 10px;
     }
     .photo{
         width: 90%;
